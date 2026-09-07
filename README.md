@@ -35,6 +35,41 @@ DataPilot was tested across multiple datasets with different structures and qual
 
 - **Raw statistics ≠ understanding :** Numbers like skewness, kurtosis, or a Z-score of 3.2 mean little to a non-technical stakeholder. The AI-explanation layer was the single biggest driver of "aha" moments during testing — it's the difference between seeing a result and understanding it.
 
+## The Business Case
+A analyst does not get paid for missing values they are paid to solve the business problem with the data. Every hour spend on repetative work and cleanup is an hour not spent on actual business spent 
+Data Pilot is build to close this gap:
+
+- **Faster time to insight :** The initial phase drop hours to minutes
+- **Low barrier to entry :** Non tech users can get a real read on their data without writting code
+- **More consistent quality check :** dont have to rely on analyst for manual review
+- **Insight,not just output :** findings are translated into business language,not just statistical outputs
+
+| Components | Purpose|
+|---|---|
+| Reader | 	Loads CSV/XLSX datasets |
+| Profiler | Understands dataset structure and statistics |
+|Quality | 	Identifies data-quality issues |
+| Statistic| 	Performs statistical analysis and anomaly detection |
+| EDA | 	Generates exploratory analysis |
+| AI explainer | Converts findings into understandable insights |
+| Streamlit app | 	Provides the interactive user interface |
 
 
+## Tech Stack
+- Python (Pandas, Numpy,scikit-learn)
+- streamlit
+- IQR &Z-score
+- AI Integration
+  
+## Use Case
+- Rapid dataset exploration
+- Data-quality check before deeper analysis
+- initial anomaly investigation
+- Exploratory Data analysis
+- Quickly getting oriented in an unfamiliar dataset
 
+## Future Scope
+- Automated report generation
+- More advance anomaly detection algorithm
+- More sophisticated AI-generated business recommendation
+- Automated feature and correlation analysis
